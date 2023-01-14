@@ -1,9 +1,10 @@
 ﻿using OOPsConcept.Abstraction;
 using OOPsConcept.Inheritance;
+using OOPsConcept.Polymorphism;
 using System;
 using System.Threading;
 
-namespace oops_concept.OOPsConcept
+namespace OOPsConcept
 {
     internal class Program
     {
@@ -11,12 +12,15 @@ namespace oops_concept.OOPsConcept
         {
             Console.WriteLine("Hello World!");
 
-            Cadbury cad = new Cadbury();
-            cad.eat();
 
 
 
 
+            Chettah chettah = new Chettah();
+            chettah.run();
+
+            Tiger tiger = new Tiger();
+            tiger.run();
 
             Console.ReadLine();
 
